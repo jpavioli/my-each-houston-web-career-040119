@@ -3,7 +3,7 @@ def my_each(collection)
   new_collection = []
   collection_size = collection.size 
   if collection_size > 1 
-    while counter < collection_size
+    while counter < collection_size - 1
       yield collection[counter]
       counter += 1
     end
