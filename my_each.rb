@@ -12,4 +12,4 @@ def my_each(collection)
   new_collection
 end
 
-my_each
+my_each(1) 
