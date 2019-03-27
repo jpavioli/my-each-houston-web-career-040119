@@ -4,7 +4,7 @@ def my_each(collection)
   while i < collection.length do
    yield collection[i]
     new_collection << collection[i]
-    i = i + 1
+    i += 1
   end 
   new_collection
 end
