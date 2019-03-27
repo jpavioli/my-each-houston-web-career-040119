@@ -1,8 +1,8 @@
-def my_each(collection, &block)
+def my_each(collection)
   i = 0
   new_collection = []
   while i < collection.length do
-   yield i
+   yield collection[i]
     new_collection << collection[i]
     i = i + 1
   end 
