@@ -1,6 +1,7 @@
 def my_each(collection)
   counter = 0
   new_collection = []
+  collection_count = collection.count 
   if collection == [] 
     new_collection = []
   else collection.count >= 1 
