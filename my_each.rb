@@ -1,11 +1,11 @@
 def my_each(collection)
   counter = 0
   new_collection = []
-  collection_count = collection.count 
   if collection == [] 
     new_collection = []
-  else collection.count >= 1 
-    while counter < collection.count
+  else 
+    collection_count = collection.count 
+    while counter < collection_count
       yield collection[counter]
       counter += 1
     end
