@@ -1,3 +1,12 @@
-def my_each # put argument(s) here
-  # code here
+def my_each(collection, &block)
+  i = 0
+  new_collection = []
+  while i < collection.length do
+   yield i
+    new_collection << collection[i]
+    i = i + 1
+  end 
+  new_collection
 end
+
+my_each{|x| puts x} 
