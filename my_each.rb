@@ -4,7 +4,8 @@ def my_each(collection)
   collection_size = collection.size 
   if collection_size > 1 
     while counter < collection_size
-      yield collection[i]
+      yield collection[counter]
+      counter += 1
     end
   else
     new collection = collection
