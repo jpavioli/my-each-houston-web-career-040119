@@ -1,7 +1,7 @@
 def my_each(collection)
   counter = 0
   new_collection = []
-  collection_size = collection.length 
+  collection_size = collection.size  
   if collection_size == 0 
     new_collection = []
   elsif collection_size > 1 
