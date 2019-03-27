@@ -2,15 +2,13 @@ def my_each(collection)
   counter = 0
   new_collection = []
   collection_size = collection.length.to_i  
-  if collection_size == 0 
+  if collection == [] 
     new_collection = []
-  elsif collection_size > 1 
-    while counter < collection_size
+  else collection.length >= 1 
+    while counter < collection.length
       yield collection[counter]
       counter += 1
     end
-  else
-    new collection = collection
   end
   new_collection
 end
