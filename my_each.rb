@@ -3,4 +3,10 @@ def my_each(collection)
   new_collection = []
   collection_size = collection.length 
   if collection_size > 1 
+    while counter < collection_size
+    
+    end
+  else
+    
+  end
 end
