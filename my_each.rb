@@ -1,7 +1,7 @@
 def my_each(collection)
   counter = 0
   new_collection = []
-  collection_size = collection.length 
+  collection_size = collection.size 
   if collection_size > 1 
     while counter < collection_size
       yield collection[i]
