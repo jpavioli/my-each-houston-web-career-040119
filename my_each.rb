@@ -9,4 +9,4 @@ def my_each(collection)
   new_collection
 end
 
-my_each{|x| puts x} 
+my_each(1) {|x| puts x} 
