@@ -4,7 +4,7 @@ def my_each(collection)
   if collection == [] 
     new_collection = []
   else 
-    collection_count = collection.count 
+    collection_count = collection.length  
     while counter < collection_count
       yield collection[counter]
       counter += 1
