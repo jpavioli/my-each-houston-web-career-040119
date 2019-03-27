@@ -13,4 +13,4 @@ def my_each(collection)
   new_collection
 end
 
-my_each(1) {|i| puts "#{i}"}
+my_each(1) {|i| "#{i}"}
